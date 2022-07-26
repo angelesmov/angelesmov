@@ -9,6 +9,6 @@
 <p>Crear un documento CSV que pueda leerse en Excel con la suma de las ventas totales por región.
 <br>
 <br>
-<h6>Proceso<h6>
-<p>Leer el archivo renglón por renglón 
-</p>
+<h6>Proceso/ Funciones<h6>
+<p>Leer el archivo renglón por renglón </p>
+<p>Pattern matching, sumar listas</p>
