@@ -1,21 +1,23 @@
-# Project
+# Final Project
+## CompuStore sales by region
 
-**TODO: Add description**
+### Ángeles Hernández 
+### Yair Camacho
 
-## Installation
+###### Language: Elixir 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `project` to your list of dependencies in `mix.exs`:
+#### Project description
 
-```elixir
-def deps do
-  [
-    {:project, "~> 0.1.0"}
-  ]
-end
-```
+###### The program reads a csv file and returns a new csv file with the sum of the total sales per region
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/project>.
+#### Problem description
+
+###### Why program the solution instead of using an excel spreadsheet? 
+###### Excel offers a friendly and intuitive interface that automates many processes throughout its default functions; it is a powerful tool for data analysis; however, it shows some disadvantages when comparing it to programming languages.
+- ###### The program does not allow automatic and systematic validation of the data obtained.
+- ###### How the information is presented makes it extremely difficult for third parties to discover errors.
+- ###### It encourages mechanical behaviors. Sometimes, to save time, people tents to copy and paste formulas that need to be modified.
+
+###### Advantages of using elixir over excel
+###### When errors appear in excel, such as (#N/A; #VALUE!; #REF!; etc.), many times it is not obvious where the error is. Elixir lets us know exactly where the problems lie.
 
