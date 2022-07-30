@@ -32,9 +32,4 @@
 
 ###### The store records the data month by month, so, each month, they must feed the program with a CSV file.
 
-###### To run it, you must open the terminal, open the Elixir interactive interface with the iex command
-and then load the file containing the program, in this case, iex> c "Project.ex"
-
-###### Then the function main iex> "Project.main("Sales-data-CompuStore.csv", "Salesperregion_month.csv") must be called
-
-###### Where "Sales-data-CompuStore.csv" contains the sales for the month and, "Salesperregion_month.csv" is the new file containing the sum of sales organized by region.
+###### To run it, you must open the terminal, open the Elixir interactive interface with the iex command and then load the file containing the program, in this case, iex> c "Project.ex". Then the function main iex> "Project.main("Sales-data-CompuStore.csv", "Salesperregion_month.csv") must be called; where "Sales-data-CompuStore.csv" contains the sales for the month and, "Salesperregion_month.csv" is the new file containing the sum of sales organized by region.
