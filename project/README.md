@@ -25,3 +25,16 @@
 
 ###### The program reads a csv file and saves it as a matrix (a list of lists).
 ###### The function separates the first element of the list or row; It separates it by the different columns of the original file (store number, region, item, unit cost, quantity and month). The tail of the list is the rest of the lines and since it is a recursive function (which calls itself many times, until it reads the entire file), the entire base is analyzed. Another function adds the quantity multiplied by the price per region. And finally, it creates another csv file with the totals per region.
+
+#### How to use the program
+
+###### The program works specifically for CompuStore sales, which has three regions.
+
+###### The store records the data month by month, so, each month, they must feed the program with a CSV file.
+
+###### To run it, you must open the terminal, open the Elixir interactive interface with the iex command
+and then load the file containing the program, in this case, iex> c "Project.ex"
+
+###### Then the function main iex> "Project.main("Sales-data-CompuStore.csv", "Salesperregion_month.csv") must be called
+
+###### Where "Sales-data-CompuStore.csv" contains the sales for the month and, "Salesperregion_month.csv" is the new file containing the sum of sales organized by region.
